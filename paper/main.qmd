@@ -1,0 +1,46 @@
+---
+title: Agreement Attraction under uncertainty
+shorttitle: Agreement Attraction under uncertainty
+author:
+  - name: Utku Turk
+    corresponding: true
+    orcid: 0000-0001-8011-1541
+    email: utkuturk@umd.edu
+    affiliations:
+      - name: University of Maryland
+        department: Department of Linguistics
+        # address: 1234 Capital St.
+        city: College Park
+        region: MD
+        country: USA
+        # postal-code: 12084-1234
+author-note:
+  disclosures:
+    data-sharing: The data is available on github https://github.com/utkuturk/attraction_honorific_turkish. 
+abstract: |
+    Speakers often make systematic errors in establishing a number agreement relation between a verb and its agreement controller, when another NP with a different number (the attractor) interferes. As a result, speakers may produce ungrammatical sentences like ‘*The key to the cabinets are rusty,’ or misclassify them as acceptable (Bock and Miller 1991). However, it has been noted that these judgment errors are done predominantly in ungrammatical sentences and speakers do not misclassify grammatical sentences like ‘The key to the cabinets is rusty,’ as ungrammatical due to the presence of the attractor. This grammaticality asymmetry has been taken to support a specific account that utilizes privative features and reanalysis. According to these accounts (Lewis and Vasishth 2005, Wagers et al. 2009), this phenomenon, called attraction, arises as a result of a reanalysis of the attractor as the agreement controller at the site of the verb. As for grammatical sentences, since no reanalysis is needed, speakers do not make similar errors. However, the true extent of this phenomenon cannot be correctly measured in grammatical sentences, in which the overall accuracy is close to ‘ceiling’ (Uttl 2005). Recently, it was shown that when participants’ a priori response bias towards ‘yes’ is manipulated and the overall accuracy in grammatical sentences is lowered, the similar effects arise in both grammatical and ungrammatical sentences (Hammerly et al. 2019, Turk 2022). However, these experiments manipulated the response bias through instructions and ratio of ungrammatical sentences to grammatical sentences. This work aims to investigate a more naturalistic approach to this question by utilizing the effects of register on agreement in Turkish, in which attraction was previously attested as well (Lago et al. 2019, Turk and Logacev 2024). Turkish register facts let us exploit two complementary manipulations. First, an overt formal addressee (e.g., ‘sir/efendim’) can control agreement, rendering an otherwise ungrammatical string acceptable (≈ ‘The key to the cabinets are rusty, sir’). Second, an overt informal addressee uniformly decreases acceptability (≈ ‘#The key to the cabinet is rusty, yo’), thereby removing ceiling effects on grammatical baselines. Using these register cues in a speeded AJT (N=174), we observe attraction illusions in grammatical sentences once ceilings are reduced, producing parallel effects across grammatical and ungrammatical items. This symmetry undermines accounts that tie attraction solely to reanalysis under a privative-feature retrieval mechanism.
+# impact-statement: "This template helps you get started."
+keywords: [Keyword 1, Keyword 2, Keyword 3]
+bibliography: bibliography.bib
+format:
+  apaquarto-pdf:
+    documentmode: man
+---
+
+# Introduction
+
+# The Current Study
+
+# Discussion
+
+# Conclusion
+
+<!-- References will auto-populate in the refs div below -->
+
+::: {#refs}
+:::
+
+# This Section Is an Appendix {#apx-a}
+
+
+# Another Appendix {#apx-b}
