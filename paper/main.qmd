@@ -26,8 +26,15 @@ format:
   apaquarto-pdf:
     documentmode: man
 ---
-
+tinytex::install_tinytex()
 # Introduction
+
+
+
+```{r}
+a = 2+2
+a
+```
 
 # The Current Study
 

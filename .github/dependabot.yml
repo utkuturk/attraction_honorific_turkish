@@ -1,0 +1,16 @@
+version: 2
+updates:
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "Type: Dependencies :arrow_up:"
+  - package-ecosystem: "devcontainers"
+    directories:
+      - "/"
+      - ".github/"
+    schedule:
+      interval: "weekly"
+    labels:
+      - "Type: Dependencies :arrow_up:"
