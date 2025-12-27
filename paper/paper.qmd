@@ -8,6 +8,15 @@ bibliography: bibliography.bib
 format: 
   pdf:
     pdf-engine: pdflatex
+    cite-method: biblatex
+    biblatexoptions:
+      - style=apa
+      - maxbibnames=99
+      - dashed=false
+      - sorting=ydnt
+    include-in-header:
+      - preamble.tex
+    keep-tex: true
     number-sections: true
     linestretch: 1
     geometry:
@@ -18,9 +27,26 @@ format:
       - heightrounded
     fontfamily: times
     fontsize: 10pt
+  html:
+    embed-resources: true
+    toc: true
+filters:
+   - wordcount
+execute:
+  echo: false
+  message: false
+  warning: false
+---
+
 ---
 
 # Introduction
+
+```r
+
+2 + 2 
+
+```
 
 ## Phenomenon: Agreement attraction
 Agreement attraction occurs when a verb agrees with a nearby noun phrase (the attractor) instead of the true subject. In Turkish possessive DPs like *yöneticilerin aşçısı* (“the managers’ cook”), speakers sometimes accept sentences where the verb agrees with the plural possessor rather than the singular head. The basic behavioral signature is that ungrammatical sentences with a plural attractor receive more “yes/acceptable” responses than when the attractor is singular [@Lago2019; @Turk2022; @Ulusoy2023; @TurkLogacev2024a]. In grammatical sentences, however, attraction is often absent or highly attenuated.
