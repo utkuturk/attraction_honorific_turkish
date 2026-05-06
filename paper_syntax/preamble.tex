@@ -1,0 +1,54 @@
+% Preamble for a Syntax Paper
+\UseRawInputEncoding
+
+% Formatting & Layout
+\usepackage[margin=1.0in]{geometry}
+\usepackage{times}
+\usepackage{ragged2e}
+\setlength\RaggedRightParindent{0.3in}
+\RaggedRight
+
+% Section Formatting
+\usepackage[compact]{titlesec}
+\titleformat{\section}[runin]{\normalfont\bfseries}{\thesection.}{.5em}{}[.]
+\titleformat{\subsection}[runin]{\normalfont\scshape}{\thesubsection.}{.5em}{}[.]
+
+% Linguistics Packages
+\usepackage{tipa}
+\usepackage{leipzig}
+\usepackage{langsci-gb4e} % For numbered examples
+\usepackage[linguistics]{forest} % For syntax trees
+\usepackage{stmaryrd} % For semantic brackets \llbracket \rrbracket
+\usepackage{amssymb}
+
+% Citations
+\usepackage{natbib}
+\setcitestyle{semicolon,aysep={},yysep={,},notesep={:}}
+
+% Special Environments (Abstract and Keywords)
+\renewenvironment{abstract}{%
+    \noindent\begin{minipage}{1\textwidth}
+    \setlength{\leftskip}{0.4in}
+    \setlength{\rightskip}{0.4in}
+    \textbf{Abstract.}}
+{\end{minipage}}
+
+\newenvironment{keywords}{%
+    \vspace{.5em}
+    \noindent\begin{minipage}{1\textwidth}
+    \setlength{\leftskip}{0.4in}
+    \setlength{\rightskip}{0.4in}
+    \textbf{Keywords.}}
+{\end{minipage}}
+
+% Custom Commands
+\newcommand{\intp}[1]{$\llbracket${#1}$\rrbracket$}
+\newcommand{\mi}{\textit{=mI}}
+
+% Forest Settings for Trees
+\forestset{
+    fned/.style={
+        delay={where content={}{shape=coordinate, for siblings={anchor=north}}{}},
+        for tree={s sep=3mm, inner sep=0mm}
+    }
+}

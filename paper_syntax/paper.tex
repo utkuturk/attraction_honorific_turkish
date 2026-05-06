@@ -1,0 +1,57 @@
+\documentclass[12pt,letterpaper]{article}
+
+% Load the preamble file
+\input{preamble.tex}
+
+\begin{document}
+
+% Title and Authors
+\begin{center}
+    \normalfont\bfseries
+    [Title of Your Paper]
+    \vskip .5em
+    \normalfont
+    [Author Name]
+    \vskip .5em
+\end{center}
+
+\begin{abstract}
+[Your abstract goes here.]
+\end{abstract}
+
+\begin{keywords}
+[Keyword 1; Keyword 2; Keyword 3] \vspace{1.1ex}
+\end{keywords}
+
+\section{Introduction}
+[Introduction text...]
+
+\section{Data and Analysis}
+% Example of a numbered example
+\ea
+\gll [Word 1] [Word 2] [Verb]\\
+~ [Gloss 1] ~ [Gloss 2] ~ [Gloss-V]\\
+\glt `Free translation goes here.'
+\z
+
+% Example of a syntax tree
+\begin{center}
+\begin{forest} fned
+    [TP
+        [DP [Subject]]
+        [T'
+            [VP [Object] [V]]
+            [T]
+        ]
+    ]
+\end{forest}
+\end{center}
+
+\section{Conclusion}
+[Closing remarks...]
+
+% Bibliography
+\bibliographystyle{sp} % Uses the sp.bst file
+\bibliography{refs.bib}
+
+\end{document}
