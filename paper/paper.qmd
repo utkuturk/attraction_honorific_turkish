@@ -83,7 +83,7 @@ In the rest of the Introduction, we summarize previous findings of agreement att
 ## Agreement attraction and competing accounts
 
 - Speakers systematically fail to produce, parse, and pass a judgment on the grammaticality of a sentence.
-- One phenomenon that gained continuous traction within the psycholinguistic literature is the agreement processes.
+- One phenomenon that gained continuous traction within the psycholinguistic literature using judgment tasks is the agreement processes.
 - In this paper we specifically focus on the comprehension of agreement and the failure to notice an ungrammaticality due to a wrong marking on the verb. 
 - This illusion, called agreement attraction, occurs when a verb agrees with a nearby noun phrase (the attractor) instead of the true subject [@BockMiller1991].  
 - For example, in sentences like (1b) the auxiliary *are* mismatches the subject head *the key* in number. Instead, it matches the attractor noun *the cabinets* structurally irrelevant.
@@ -125,21 +125,35 @@ In the rest of the Introduction, we summarize previous findings of agreement att
 - They found that when participants are told that "most of the sentencens in the experiment will be ungrammatical" and the ratio of ungrammatical to grammatical sentences is increased, participants exhibited illusion of ungrammaticality in grammatical sentences. That is, they were more likely to reject grammatical sentences as ungrammatical when there was a plural attractor present.
 - They took this finding as evidence in favor of distortion accounts like M&M model, arguing that when the yes bias is reduced, the attraction effects in grammatical sentences can be revealed.
 
-- More recently, there have been attempts to marry these two accounts into a hybrid model (tanner, yadav, etc.). Yadav et al. (2023) formalized the aforementioned accounts, as well as hybrid models that combine both retrieval and distortion mechanisms, within a Bayesian hierarchical framework.
-- Their computational simulations revealed that the agreement attraction effects are best explained by a hybrid model that incorporates both retrieval infererence and representation-distortion mechanisms.
-- This model assumes that attraction arises from two sequential processes: (1) the distortion of the subject representation before the verb is encountered, and (2) retrieval at the verb that is being fed by the distortion. 
-- According to their implementation, in a subset of trials the plural information from the attractor is copied to the memory representation of the subject with a certain probability, leading to a distorted representation in $\theta\times N$ trials.
-- When the verb was is encountered, a cue-based retrieval process is triggered to find the subject.
-- The verb sends out relevant retrieval cues based on its features, such as the case, the number, and the person, as well as certain cues based on the syntactic structure (Arnett Wagers).
-- Each noun phrase in memory receives activation based on how well it matches these retrieval cues.
-- A noun that fully matches the cues receives more activation; a noun that only partially matches receives less.
-- In trials where percolation has occurred, the subject noun now has a plural feature and thus poorly matches the verb's [+singular] cue with 'was' and highly matches with [+plural] cue with 'were', leading to relevant attraction signatures.
-- They still resorts back to the 'yes-bias' for explaining the reduced probability in grammatical conditions. 
+- However, previous cue-based accounts technically were already able to predict symmetrical results with grammatical and ungrammatical conditions. 
+- In the present model, the noise term can be modulated to have symmetrical effects, independent of grammaticality.
+- **Explain cue based again simply but with a focus on uncertainty.**
+- However, it is true that this uncertainty is less principled by what is offered by Hammerly et al., as well as hybrid models recently offered (tanner, yadav)
+- In this paper, we are going to show that the symmetrical effects can be achieved without response bias modulation within the same participants by introducing an uncertainty about the agreement controller.
+- In the general discussion session we will argue what our results tells about existing models.
 
 
 ## Turkish Agreement Attraction
 
-In Turkish possessive DPs like *yöneticilerin aşçısı* (“the managers’ cook”), speakers sometimes accept sentences where the verb agrees with the plural possessor rather than the singular head. The basic behavioral signature is that ungrammatical sentences with a plural attractor receive more “yes/acceptable” responses than when the attractor is singular [@Lago2019; @Turk2022; @Ulusoy2023; @TurkLogacev2024a]. In grammatical sentences, however, attraction is often absent or highly attenuated.
+- In Turkish, cannonical attraction effects were first observed with possessive DPs like *yöneticilerin aşçısı* (“the managers’ cook”) [@Lago2019]. 
+- Speakers often accepted sentences where the verb agrees with the plural non-intervening possessor rather than the singular head that are closer to the verb. 
+- The basic behavioral signature is that ungrammatical sentences with a plural attractor receive more “yes/acceptable” responses than when the attractor is singular [@Lago2019; @Turk2022; @Ulusoy2023; @TurkLogacev2024a]. 
+
+LAGOSENTENCE
+
+- @Lago2019 assumed a cue-based retrieval model where a verb initiates a search for relevant agreement cues that involve number and subjecthood related cues. 
+- they argued that the genitive marking on the possessor increased the likelihood of that NP to be retrieved as the controller. 
+- However, their experimental items also included a syncretism between the possessive marking and the accusative in the head NP.
+- @TurkLogacev2024 tested @Lago2019 items without the possessive-accusative syncretisms to understand whether the effects were due to a shallow processing that involve syncretism. Their results suggested that the original findings were due to abstract features rather than case syncretism. 
+- @Ulusoy2023 extended agreement attraction results to self-paced readings, as well as testing other structure and other nouns marked with a non-subjecthood cases. 
+
+ULUSOY SENTENCE
+
+- She showeed that the attraction effects were present in reading times, meaning that participants were faster to read ungrammatical sentences with an plural distractor, compared to the ones with singular distractors. 
+- She also found comparable attraction errors across her experiments, except for the nouns marked with a non-subject cases, though her overall errors were a lot higher.
+
+
+- Across all of these studies, attraction effects within grammatical sentences were often absent or highly attenuated in both error rates and reading times.
 
 
 ## Turkish grammatical sketch
